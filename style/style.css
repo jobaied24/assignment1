@@ -18,6 +18,15 @@
     color:#0E0E0E;
 }
 
+.second-btn{
+    background-color:#006A50;
+    border:none;
+    border-radius:7px;
+    padding:15px 30px;
+    font-size:15px;
+    font-weight:580;
+    color:white;
+}
 
 
 /* nav style */
@@ -26,11 +35,11 @@ nav{
     display:flex;
     align-items:center;
     justify-content:space-between;
-    margin:30px 160px;
+    margin:30px 140px;
 }
 
 .nav-title{
-    font-size:32px;
+    font-size:28px;
 font-weight:bold;
 }
 
@@ -42,4 +51,38 @@ font-weight:bold;
     padding:15px 30px;
     border:1.5px solid #006A50;
     border-radius:8px;
+}
+
+
+/* banner-style */
+
+.banner{
+display:flex;
+align-items:center;
+justify-content:space-between;
+background-color:#C6E4D6;
+border-radius:20px;
+margin:30px 140px;
+padding:75px 45px;
+gap:20px;
+}
+
+.banner-content{
+    max-width:615px;
+}
+.banner-head{
+    font-size:18px;
+    font-weight:470px;
+    color:rgba(14, 14, 14, 0.5);
+}
+
+.banner-title{
+    font-size:45px;
+    font-weight:bold;
+    margin:12px 0px 20px 0px;
+}
+
+.banner-image{
+    width:475px;
+    height:400px;
 }

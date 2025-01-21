@@ -28,6 +28,11 @@
     color:white;
 }
 
+.description{
+    color:rgba(14, 14, 14, 0.7);
+    font-size:14px;
+}
+
 
 /* nav style */
 
@@ -85,4 +90,41 @@ gap:20px;
 .banner-image{
     width:475px;
     height:400px;
+}
+
+/* vision section style */
+
+.vision{
+    margin:50px 140px;
+}
+
+.vision-title{
+    font-size:30px;
+    font-weight:bold;
+}
+
+.vision-description{
+    margin:20px 0px;
+    line-height:20px;
+}
+
+.plan-container{
+    display:flex;
+    gap:20px;
+}
+
+.plan{
+    padding:25px;
+    background-color: aqua;
+    border-radius:12px;
+}
+
+.plan-title{
+    margin-top:20px;
+    font-size:15px;
+    font-weight:bold;
+    color:rgba(14, 14, 14, 0.8);
+}
+.plan-description{
+    margin:10px 0px 20px 0px;
 }

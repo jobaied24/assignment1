@@ -12,6 +12,10 @@
     margin:0px;
   }
 
+  body{
+    background-color:rgba(245, 245, 245, 1);
+  }
+
 /* common style */
 
 .primary-color{
@@ -29,8 +33,9 @@
 }
 
 .description{
-    color:rgba(14, 14, 14, 0.7);
+    /* color:rgba(14, 14, 14, 0.7); */
     font-size:14px;
+    line-height:20px;
 }
 
 
@@ -50,7 +55,7 @@ font-weight:bold;
 
 .first-btn{
     color:#006A50;
-    background-color:white;
+    background-color:rgba(245, 245, 245, 1);
     font-weight:700;
     font-size:18px;
     padding:15px 30px;
@@ -117,6 +122,7 @@ gap:20px;
     padding:25px;
     background-color: aqua;
     border-radius:12px;
+    max-width:280px;
 }
 
 .plan-title{
@@ -125,6 +131,55 @@ gap:20px;
     font-weight:bold;
     color:rgba(14, 14, 14, 0.8);
 }
+
 .plan-description{
     margin:10px 0px 20px 0px;
+}
+
+.third-btn{
+    border:none;
+    border-radius:7px;
+    font-size:14px;
+    font-weight:550;
+    color:white;
+    background-color:green;
+    padding:10px 16px;
+}
+
+.first-plan{
+    background-color:rgba(84, 144, 245, 0.2);
+}
+
+.second-plan{
+    background-color: rgba(198, 228, 214, 1);
+}
+
+.third-plan{
+    background-color: rgba(247, 235, 207, 1);
+}
+
+.plan-btn1{
+    background-color: rgba(84, 144, 245, 1);
+}
+
+.plan-btn2{
+    background-color:rgba(9, 161, 92, 1);
+}
+
+.plan-btn3{
+    background-color:rgba(255, 194, 57, 1);
+}
+
+
+/* speech style */
+
+.speech-container{
+    margin:0px  140px;
+    background-color:white;
+    border:1px solid rgb(213, 213, 213);
+    border-radius:8px;
+    background-image:url('../assets/quote-bg.png');
+    background-repeat:no-repeat;
+    /* background-position:left center; */
+    padding:40px 18px;
 }

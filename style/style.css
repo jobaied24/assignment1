@@ -197,13 +197,43 @@ gap:20px;
 
 .satellite{
     display:flex;
-    padding:45px 40px;
+    gap:25px;
+    padding:40px 40px;
     background-color:white;
-    border-radius:10px;
+    border-radius:15px;
+}
+
+.satellite-content{
+    gap:20px;
 }
 
 .satellite-title{
     font-size:25px;
     font-weight:bold;
     color:rgba(14, 14, 14, 0.8);
+    margin-bottom:10px;
+}
+
+.satellite-img{
+    height:265px;
+    width:360px;
+    border-radius:20px;
+}
+
+.al-jazeera{
+    height:35px;
+    width:120px;
+
+}
+
+.date{
+    margin:10px 0px;
+}
+
+.satellite-btn{
+    margin-top:18px;
+}
+
+.second-satellite{
+    margin-top:20px;
 }

@@ -32,6 +32,9 @@
     color:white;
 }
 
+.second-btn:hover{
+    background-color:#024937;
+}
 .ban-title{
     font-size:25px;
 font-weight:bold;
@@ -68,6 +71,10 @@ nav{
     border-radius:8px;
 }
 
+.first-btn:hover{
+    background-color:#006A50;
+    color:white;
+}
 
 /* banner-style */
 
@@ -125,6 +132,10 @@ gap:20px;
     max-width:280px;
 }
 
+.plan:hover{
+    background-color:rgba(245, 245, 245, 1);
+}
+
 .plan-title{
     margin-top:20px;
     font-size:15px;
@@ -180,7 +191,7 @@ gap:20px;
     border-radius:10px;
     background-image:url('../assets/quote-bg.png');
     background-repeat:no-repeat;
-    /* background-position:left center; */
+    background-position:2% 10%;
     padding:40px 18px;
 }
 
@@ -257,6 +268,11 @@ gap:20px;
     border:1.5px solid rgb(223, 223, 223);
     padding:25px;
     border-radius:12px;
+}
+
+.donate-card:hover{
+    background-color:rgba(219, 202, 11, 0.505);
+    cursor:pointer;
 }
 
 .donate-description{

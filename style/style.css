@@ -32,6 +32,11 @@
     color:white;
 }
 
+.ban-title{
+    font-size:25px;
+font-weight:bold;
+}
+
 .description{
     /* color:rgba(14, 14, 14, 0.7); */
     font-size:14px;
@@ -51,11 +56,6 @@ nav{
     align-items:center;
     justify-content:space-between;
     margin:30px 140px;
-}
-
-.nav-title{
-    font-size:28px;
-font-weight:bold;
 }
 
 .first-btn{
@@ -314,4 +314,23 @@ gap:20px;
 
 .subscribe-btn{
     border-radius:0px 7px 7px 0px;
+}
+
+
+/* footer style */
+
+footer{
+    text-align:center;
+    background-color:white;
+    padding:35px 200px;
+}
+
+footer img{
+    /* margin-top:20px; */
+    padding:22px 10px 0px 10px;
+    height:20px;
+}
+hr{
+    color:rgb(234, 234, 234);
+    margin-top:20px;
 }

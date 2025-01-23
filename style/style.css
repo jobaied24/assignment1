@@ -268,5 +268,50 @@ gap:20px;
 }
 
 .secondary-donate-card{
-    background-color: rgba(198, 228, 214, 1);
+    background-color:rgba(198, 228, 214, 1);
+}
+
+.money{
+    text-align:center;
+    width:85%;
+    color:rgba(14, 14, 14, 0.3);
+    border:none;
+    border-bottom:1.5px solid rgb(221, 221, 221);
+    padding:15px 0px;
+    margin:25px 40px 25px 40px;
+}
+
+
+/* subscribe section style */
+
+.subscribe-container{
+    background-color:rgba(198, 228, 214, 1);
+    text-align:center;
+    border-radius:18px;
+    margin:50px 140px;
+    padding:50px 200px;
+}
+
+.subscribe-email{
+    width:100%;
+    border:none;
+    color:rgba(14, 14, 14, 0.3);
+    border-radius:7px 0px 0px 7px;
+    padding:15px 30px;
+}
+
+.subscribe-description{
+    margin:12px 20px;
+}
+
+.last-description{
+    margin:18px;
+}
+
+.subscribe{
+    display:flex;
+}
+
+.subscribe-btn{
+    border-radius:0px 7px 7px 0px;
 }
